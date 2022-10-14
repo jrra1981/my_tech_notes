@@ -9,7 +9,7 @@ Caderno no qual além de versionar minhas anotações dos diversos aprendizados 
   - [Índice](#índice)
   - [Status do projeto](#status-do-projeto)
   - [Tecnologias Estudadas](#tecnologias-estudadas)
-    - [Design Patterns](#design-patterns)
+    - [Docker](#docker)
 
 ## Status do projeto
 
@@ -19,7 +19,9 @@ Caderno no qual além de versionar minhas anotações dos diversos aprendizados 
 
 Segue listagem de tecnologias ou tópicos correlatos que estão em estudo ou foram estudados.
 
-### Design Patterns
+* [Docker - Introdução e comandos principais](docker/)
+
+
 
 
 
