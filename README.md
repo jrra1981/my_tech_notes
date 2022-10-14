@@ -19,7 +19,7 @@ Caderno no qual além de versionar minhas anotações dos diversos aprendizados 
 
 Segue listagem de tecnologias ou tópicos correlatos que estão em estudo ou foram estudados.
 
-* [Docker - Introdução e comandos principais](docker/)
+* [Docker - Introdução e comandos principais](docker/index.md)
 
 
 
