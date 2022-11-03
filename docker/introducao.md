@@ -12,7 +12,7 @@ Camada que isola o sistema operacional original, dos sistemas operacionais das m
 
 Será que sempre para haver aplicações separadas (máquinas virtuais) é necessário o uso de hypervisor? Hypervisor consome bastante recurso da máquina e fica restrito as implementações dos diversos SOs. Surge então um novo conceito, o container. Um container funciona como um processo dentro do sistema operacional, economizando recursos e não havendo a necessidade de uma instalação SO "dentro da máquina virual".
 
-Os containers conseguem se isolar um do outro, utilizando um conceito chamado "Namespaces" existem diversos namespaces e cada um trabalha em um aspecto de isolamento dos containers, sendo eles:
+Os containers conseguem se isolar um do outro, utilizando um conceito chamado "Namespaces" existem diversos namespaces e cada um trabalha em um aspecto (camada) de isolamento dos containers, sendo eles:
 
 	1. PID - Garante o isolamento a nível de processo dentro de cada um dos containers. Então um processo dentro de um container, que consequentemente é um processo dentro do nosso sistema operacional, vai estar isolado de todos os outros do nosso host, da nossa máquina original.
 
@@ -27,3 +27,5 @@ Os containers conseguem se isolar um do outro, utilizando um conceito chamado "N
 Outro conceito importante relativo a containers, está voltado ao compartilhamento de recursos computacionais. Para tanto, existe um outro conceito que se chama “Cgroups”, que vai garantir que consigamos definir tanto de maneira automática quando de maneira manual como os consumos serão feitos para cada um desses containers dentro do nosso sistema operacional.	
 
 Graças aos namespaces e aos Cgroups nós conseguimos garantir isolamento, conseguimos garantir que nosso container funcione sem instalar um sistema operacional dentro dele, e também conseguiremos ter um controle de gerenciamento de recursos, como memória de CPU.
+
+[Próximo => Instalação do Docker ](instalacao.md)
