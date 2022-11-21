@@ -57,5 +57,4 @@ A partir do exemplo da página anterior, fizemos algumas melhorias para tornar m
 
 > [Próximo => Subindo imagens no Docker Hub ](dockerhub.md)
 
-> [Anterior => Criando a primeira imagem com Docker ](imagem02.md)    
-
+> [Anterior => Criando a primeira imagem com Docker ](imagem02.md)
